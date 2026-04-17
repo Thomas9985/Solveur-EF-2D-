@@ -1,3 +1,6 @@
+"""Fonction qui construit les arêtes entre les sommets des triangles
+edges = liste des arêtes
+
 function [ edges , edges_triangles ] = build_edge_connectivity (my_mesh)
   edges_triangles = {};
   edges =[];
