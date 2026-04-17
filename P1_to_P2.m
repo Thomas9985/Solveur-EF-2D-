@@ -1,3 +1,6 @@
+"""Fonction pour passer d'un maillage P_1 à un maillage P_2
+Parmaètre : mesh_P1 : maillage triangulaire pour méthode P1"""
+
 function mesh_P2 = P1_to_P2(mesh_P1)
   coords = mesh_P1.coords;
   triangles = mesh_P1.triangles;
