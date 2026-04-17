@@ -1,3 +1,10 @@
+"""Fonction d'assemblage comme assemble_matrix mais pour le second membre
+Paramètres : str_integrand_unknown : "u" 
+             str_cofvar : 
+             mesh_geo : maillage éléments finis utilisé pour la méthode
+             degree_EF : 1 ou 2 degré de la méthode éléments finis
+             number : 1 ou 3 degré de la méthode de quadrature pour calculer l'intégrale"""
+
 function A = assemble_vector(str_integrand_unknown,str_cofvar,mesh_geo,degree_EF,number)
     tr = getfield(mesh_geo,'triangles');
     co = getfield(mesh_geo,'coords');
