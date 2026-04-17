@@ -1,1 +1,3 @@
-
+#!/bin/bash
+git clone https://github.com/Thomas9985/Solveur-EF-2D.git ~/my-project
+cd ~/my-project
